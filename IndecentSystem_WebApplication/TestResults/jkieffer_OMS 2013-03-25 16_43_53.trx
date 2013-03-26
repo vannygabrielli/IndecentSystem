@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="3e6410dc-e035-421d-82be-e266f739d9b7" name="jkieffer@OMS 2013-03-25 16:43:53" runUser="CLINMIRA\jkieffer" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="1b8b4ad3-d1bf-413d-ba0c-5696d69d5d98">
+    <Description>Esta es la configuración de pruebas predeterminada para una ejecución de pruebas local.</Description>
+    <Deployment enabled="false" runDeploymentRoot="jkieffer_OMS 2013-03-25 16_43_53" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-03-25T16:43:53.6084816-05:00" queuing="2013-03-25T16:43:53.6404834-05:00" start="2013-03-25T16:43:53.6454837-05:00" finish="2013-03-25T16:43:54.1015098-05:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="6" executed="6" passed="4" error="0" failed="2" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Tiene_Detalle_Deuda" storage="d:\_karlos\personal\work_upc\repositorio_dsd\wscobranzasoft\fuente_dsd\webapplication1\testwscobranzas\bin\debug\testwscobranzas.dll" id="6801c58d-ca8c-8a8d-45de-7816c46450e7">
+      <Execution id="a06e4f7b-f9db-4a8d-9427-95b3fc9fa714" />
+      <TestMethod codeBase="D:/_Karlos/Personal/Work_UPC/Repositorio_DSD/wscobranzasoft/Fuente_DSD/WebApplication1/TestWScobranzas/bin/Debug/TestWScobranzas.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestWScobranzas.UnitTest1, TestWScobranzas, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Tiene_Detalle_Deuda" />
+    </UnitTest>
+    <UnitTest name="Consulta_Datos_Cliente" storage="d:\_karlos\personal\work_upc\repositorio_dsd\wscobranzasoft\fuente_dsd\webapplication1\testwscobranzas\bin\debug\testwscobranzas.dll" id="4cb5d4a2-1328-2a88-c185-87f85e6947eb">
+      <Execution id="fd9e8ec5-7d0f-4419-8b4e-90ba4411198c" />
+      <TestMethod codeBase="D:/_Karlos/Personal/Work_UPC/Repositorio_DSD/wscobranzasoft/Fuente_DSD/WebApplication1/TestWScobranzas/bin/Debug/TestWScobranzas.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestWScobranzas.UnitTest1, TestWScobranzas, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Consulta_Datos_Cliente" />
+    </UnitTest>
+    <UnitTest name="Consulta_Deudor_x_Dni_ConDatos" storage="d:\_karlos\personal\work_upc\repositorio_dsd\wscobranzasoft\fuente_dsd\webapplication1\testwscobranzas\bin\debug\testwscobranzas.dll" id="f4d03b21-0adc-ef09-e9ca-c2faea8d94be">
+      <Execution id="cc34687f-b1ea-465b-ae6f-bf7e4e471ac5" />
+      <TestMethod codeBase="D:/_Karlos/Personal/Work_UPC/Repositorio_DSD/wscobranzasoft/Fuente_DSD/WebApplication1/TestWScobranzas/bin/Debug/TestWScobranzas.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestWScobranzas.UnitTest1, TestWScobranzas, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Consulta_Deudor_x_Dni_ConDatos" />
+    </UnitTest>
+    <UnitTest name="Listado_Telefonos_de_cliente" storage="d:\_karlos\personal\work_upc\repositorio_dsd\wscobranzasoft\fuente_dsd\webapplication1\testwscobranzas\bin\debug\testwscobranzas.dll" id="f658dc81-2e00-3c73-5151-c48548e91307">
+      <Execution id="6700086b-0a4b-471d-a7ba-0106dd7c1efc" />
+      <TestMethod codeBase="D:/_Karlos/Personal/Work_UPC/Repositorio_DSD/wscobranzasoft/Fuente_DSD/WebApplication1/TestWScobranzas/bin/Debug/TestWScobranzas.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestWScobranzas.UnitTest1, TestWScobranzas, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Listado_Telefonos_de_cliente" />
+    </UnitTest>
+    <UnitTest name="Visitas_de_Cobradores" storage="d:\_karlos\personal\work_upc\repositorio_dsd\wscobranzasoft\fuente_dsd\webapplication1\testwscobranzas\bin\debug\testwscobranzas.dll" id="f068a206-2924-acc3-26e7-33c8417e86f5">
+      <Execution id="56397f6c-18e9-47b0-824a-3d0b2bf6eedc" />
+      <TestMethod codeBase="D:/_Karlos/Personal/Work_UPC/Repositorio_DSD/wscobranzasoft/Fuente_DSD/WebApplication1/TestWScobranzas/bin/Debug/TestWScobranzas.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestWScobranzas.UnitTest1, TestWScobranzas, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Visitas_de_Cobradores" />
+    </UnitTest>
+    <UnitTest name="Consulta_Deudor_x_Dni_SinDatos" storage="d:\_karlos\personal\work_upc\repositorio_dsd\wscobranzasoft\fuente_dsd\webapplication1\testwscobranzas\bin\debug\testwscobranzas.dll" id="78ec0977-c5d8-8055-b465-ab6b151435b4">
+      <Execution id="c075d949-0e25-4242-9eaf-09e80fc8b5a3" />
+      <TestMethod codeBase="D:/_Karlos/Personal/Work_UPC/Repositorio_DSD/wscobranzasoft/Fuente_DSD/WebApplication1/TestWScobranzas/bin/Debug/TestWScobranzas.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestWScobranzas.UnitTest1, TestWScobranzas, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Consulta_Deudor_x_Dni_SinDatos" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Resultados que no están en la lista" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Todos los resultados cargados" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="4cb5d4a2-1328-2a88-c185-87f85e6947eb" executionId="fd9e8ec5-7d0f-4419-8b4e-90ba4411198c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6801c58d-ca8c-8a8d-45de-7816c46450e7" executionId="a06e4f7b-f9db-4a8d-9427-95b3fc9fa714" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="78ec0977-c5d8-8055-b465-ab6b151435b4" executionId="c075d949-0e25-4242-9eaf-09e80fc8b5a3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f068a206-2924-acc3-26e7-33c8417e86f5" executionId="56397f6c-18e9-47b0-824a-3d0b2bf6eedc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f4d03b21-0adc-ef09-e9ca-c2faea8d94be" executionId="cc34687f-b1ea-465b-ae6f-bf7e4e471ac5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f658dc81-2e00-3c73-5151-c48548e91307" executionId="6700086b-0a4b-471d-a7ba-0106dd7c1efc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="fd9e8ec5-7d0f-4419-8b4e-90ba4411198c" testId="4cb5d4a2-1328-2a88-c185-87f85e6947eb" testName="Consulta_Datos_Cliente" computerName="OMS" duration="00:00:00.0901601" startTime="2013-03-25T16:43:53.6474838-05:00" endTime="2013-03-25T16:43:53.8804971-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fd9e8ec5-7d0f-4419-8b4e-90ba4411198c">
+    </UnitTestResult>
+    <UnitTestResult executionId="a06e4f7b-f9db-4a8d-9427-95b3fc9fa714" testId="6801c58d-ca8c-8a8d-45de-7816c46450e7" testName="Tiene_Detalle_Deuda" computerName="OMS" duration="00:00:00.0338532" startTime="2013-03-25T16:43:53.8814972-05:00" endTime="2013-03-25T16:43:53.9174992-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a06e4f7b-f9db-4a8d-9427-95b3fc9fa714">
+    </UnitTestResult>
+    <UnitTestResult executionId="c075d949-0e25-4242-9eaf-09e80fc8b5a3" testId="78ec0977-c5d8-8055-b465-ab6b151435b4" testName="Consulta_Deudor_x_Dni_SinDatos" computerName="OMS" duration="00:00:00.0495756" startTime="2013-03-25T16:43:53.9194994-05:00" endTime="2013-03-25T16:43:53.9705023-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c075d949-0e25-4242-9eaf-09e80fc8b5a3">
+    </UnitTestResult>
+    <UnitTestResult executionId="56397f6c-18e9-47b0-824a-3d0b2bf6eedc" testId="f068a206-2924-acc3-26e7-33c8417e86f5" testName="Visitas_de_Cobradores" computerName="OMS" duration="00:00:00.0840999" startTime="2013-03-25T16:43:53.9735024-05:00" endTime="2013-03-25T16:43:54.0605074-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="56397f6c-18e9-47b0-824a-3d0b2bf6eedc">
+      <Output>
+        <ErrorInfo>
+          <Message>Error de Assert.AreEqual. Se esperaba &lt;1&gt;, pero es &lt;2&gt;. </Message>
+          <StackTrace>   en TestWScobranzas.UnitTest1.Visitas_de_Cobradores() en D:\_Karlos\Personal\Work_UPC\Repositorio_DSD\wscobranzasoft\Fuente_DSD\WebApplication1\TestWScobranzas\UnitTest1.cs:línea 71
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="cc34687f-b1ea-465b-ae6f-bf7e4e471ac5" testId="f4d03b21-0adc-ef09-e9ca-c2faea8d94be" testName="Consulta_Deudor_x_Dni_ConDatos" computerName="OMS" duration="00:00:00.0158355" startTime="2013-03-25T16:43:54.0635076-05:00" endTime="2013-03-25T16:43:54.0825087-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cc34687f-b1ea-465b-ae6f-bf7e4e471ac5">
+      <Output>
+        <ErrorInfo>
+          <Message>Error de Assert.AreEqual. Se esperaba &lt;1&gt;, pero es &lt;0&gt;. </Message>
+          <StackTrace>   en TestWScobranzas.UnitTest1.Consulta_Deudor_x_Dni_ConDatos() en D:\_Karlos\Personal\Work_UPC\Repositorio_DSD\wscobranzasoft\Fuente_DSD\WebApplication1\TestWScobranzas\UnitTest1.cs:línea 20
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="6700086b-0a4b-471d-a7ba-0106dd7c1efc" testId="f658dc81-2e00-3c73-5151-c48548e91307" testName="Listado_Telefonos_de_cliente" computerName="OMS" duration="00:00:00.0041727" startTime="2013-03-25T16:43:54.0845088-05:00" endTime="2013-03-25T16:43:54.0905091-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6700086b-0a4b-471d-a7ba-0106dd7c1efc">
+    </UnitTestResult>
+  </Results>
+</TestRun>

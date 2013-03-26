@@ -1,0 +1,10 @@
+D:\_Karlos\Personal\Work_UPC\Repositorio_DSD\wscobranzasoft\Fuente_DSD\WebApplication1\WebApplication1\bin\WebApplication1.dll
+D:\_Karlos\Personal\Work_UPC\Repositorio_DSD\wscobranzasoft\Fuente_DSD\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+D:\_Karlos\Personal\Work_UPC\Repositorio_DSD\wscobranzasoft\Fuente_DSD\WebApplication1\WebApplication1\obj\Debug\ResolveAssemblyReference.cache
+D:\_Karlos\Personal\Work_UPC\Repositorio_DSD\wscobranzasoft\Fuente_DSD\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+D:\_Karlos\Personal\Work_UPC\Repositorio_DSD\wscobranzasoft\Fuente_DSD\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
+C:\Alvaro\upc\2013-1\Distribuidos\DSD\WebApplication1\WebApplication1\bin\WebApplication1.dll
+C:\Alvaro\upc\2013-1\Distribuidos\DSD\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+C:\Alvaro\upc\2013-1\Distribuidos\DSD\WebApplication1\WebApplication1\obj\Debug\ResolveAssemblyReference.cache
+C:\Alvaro\upc\2013-1\Distribuidos\DSD\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+C:\Alvaro\upc\2013-1\Distribuidos\DSD\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb

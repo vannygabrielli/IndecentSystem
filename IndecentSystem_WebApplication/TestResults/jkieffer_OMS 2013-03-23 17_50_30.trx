@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="9093c0df-fcbd-4225-9176-14dad873aa6e" name="jkieffer@OMS 2013-03-23 17:50:30" runUser="CLINMIRA\jkieffer" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="1b8b4ad3-d1bf-413d-ba0c-5696d69d5d98">
+    <Description>Esta es la configuración de pruebas predeterminada para una ejecución de pruebas local.</Description>
+    <Deployment enabled="false" runDeploymentRoot="jkieffer_OMS 2013-03-23 17_50_30" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-03-23T17:50:30.2302649-05:00" queuing="2013-03-23T17:50:30.2622667-05:00" start="2013-03-23T17:50:30.2662669-05:00" finish="2013-03-23T17:50:30.5532834-05:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Consulta_Datos_Cliente" storage="d:\_karlos\personal\work_upc\repositorio_dsd\wscobranzasoft\fuente_dsd\webapplication1\testwscobranzas\bin\debug\testwscobranzas.dll" id="4cb5d4a2-1328-2a88-c185-87f85e6947eb">
+      <Execution id="34fa7b87-8d15-40a1-85d9-90f836942419" />
+      <TestMethod codeBase="D:/_Karlos/Personal/Work_UPC/Repositorio_DSD/wscobranzasoft/Fuente_DSD/WebApplication1/TestWScobranzas/bin/Debug/TestWScobranzas.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestWScobranzas.UnitTest1, TestWScobranzas, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Consulta_Datos_Cliente" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Resultados que no están en la lista" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Todos los resultados cargados" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="4cb5d4a2-1328-2a88-c185-87f85e6947eb" executionId="34fa7b87-8d15-40a1-85d9-90f836942419" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="34fa7b87-8d15-40a1-85d9-90f836942419" testId="4cb5d4a2-1328-2a88-c185-87f85e6947eb" testName="Consulta_Datos_Cliente" computerName="OMS" duration="00:00:00.1274690" startTime="2013-03-23T17:50:30.2682671-05:00" endTime="2013-03-23T17:50:30.5392826-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="34fa7b87-8d15-40a1-85d9-90f836942419">
+    </UnitTestResult>
+  </Results>
+</TestRun>

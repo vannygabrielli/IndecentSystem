@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="b05f80d6-648f-4498-9917-d09368ca238b" name="jkieffer@OMS 2013-03-23 16:22:03" runUser="CLINMIRA\jkieffer" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="1b8b4ad3-d1bf-413d-ba0c-5696d69d5d98">
+    <Description>Esta es la configuración de pruebas predeterminada para una ejecución de pruebas local.</Description>
+    <Deployment enabled="false" runDeploymentRoot="jkieffer_OMS 2013-03-23 16_22_03" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-03-23T16:22:03.8087549-05:00" queuing="2013-03-23T16:22:03.8397567-05:00" start="2013-03-23T16:22:03.8437569-05:00" finish="2013-03-23T16:22:04.0797704-05:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="3" executed="3" passed="3" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Consulta_Deudor_x_Dni_SinDatos" storage="d:\_karlos\personal\work_upc\repositorio_dsd\wscobranzasoft\fuente_dsd\webapplication1\testwscobranzas\bin\debug\testwscobranzas.dll" id="78ec0977-c5d8-8055-b465-ab6b151435b4">
+      <Execution id="20e912b8-6f4c-4eef-897b-5cc303956ffc" />
+      <TestMethod codeBase="D:/_Karlos/Personal/Work_UPC/Repositorio_DSD/wscobranzasoft/Fuente_DSD/WebApplication1/TestWScobranzas/bin/Debug/TestWScobranzas.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestWScobranzas.UnitTest1, TestWScobranzas, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Consulta_Deudor_x_Dni_SinDatos" />
+    </UnitTest>
+    <UnitTest name="TestMethod1" storage="d:\_karlos\personal\work_upc\repositorio_dsd\wscobranzasoft\fuente_dsd\webapplication1\testwscobranzas\bin\debug\testwscobranzas.dll" id="c58798aa-aca5-2ef2-011a-e9032b4dade4">
+      <Execution id="245f7a0c-706f-48e2-b59b-2af8551d9fb7" />
+      <TestMethod codeBase="D:/_Karlos/Personal/Work_UPC/Repositorio_DSD/wscobranzasoft/Fuente_DSD/WebApplication1/TestWScobranzas/bin/Debug/TestWScobranzas.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestWScobranzas.UnitTest1, TestWScobranzas, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+    <UnitTest name="Consulta_Deudor_x_Dni_ConDatos" storage="d:\_karlos\personal\work_upc\repositorio_dsd\wscobranzasoft\fuente_dsd\webapplication1\testwscobranzas\bin\debug\testwscobranzas.dll" id="f4d03b21-0adc-ef09-e9ca-c2faea8d94be">
+      <Execution id="582bedb1-3e99-4044-8118-350655506f7d" />
+      <TestMethod codeBase="D:/_Karlos/Personal/Work_UPC/Repositorio_DSD/wscobranzasoft/Fuente_DSD/WebApplication1/TestWScobranzas/bin/Debug/TestWScobranzas.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestWScobranzas.UnitTest1, TestWScobranzas, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Consulta_Deudor_x_Dni_ConDatos" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Resultados que no están en la lista" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Todos los resultados cargados" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="78ec0977-c5d8-8055-b465-ab6b151435b4" executionId="20e912b8-6f4c-4eef-897b-5cc303956ffc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c58798aa-aca5-2ef2-011a-e9032b4dade4" executionId="245f7a0c-706f-48e2-b59b-2af8551d9fb7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f4d03b21-0adc-ef09-e9ca-c2faea8d94be" executionId="582bedb1-3e99-4044-8118-350655506f7d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="20e912b8-6f4c-4eef-897b-5cc303956ffc" testId="78ec0977-c5d8-8055-b465-ab6b151435b4" testName="Consulta_Deudor_x_Dni_SinDatos" computerName="OMS" duration="00:00:00.0695550" startTime="2013-03-23T16:22:03.8457571-05:00" endTime="2013-03-23T16:22:04.0567691-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="20e912b8-6f4c-4eef-897b-5cc303956ffc">
+    </UnitTestResult>
+    <UnitTestResult executionId="245f7a0c-706f-48e2-b59b-2af8551d9fb7" testId="c58798aa-aca5-2ef2-011a-e9032b4dade4" testName="TestMethod1" computerName="OMS" duration="00:00:00.0001029" startTime="2013-03-23T16:22:04.0577692-05:00" endTime="2013-03-23T16:22:04.0597693-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="245f7a0c-706f-48e2-b59b-2af8551d9fb7">
+    </UnitTestResult>
+    <UnitTestResult executionId="582bedb1-3e99-4044-8118-350655506f7d" testId="f4d03b21-0adc-ef09-e9ca-c2faea8d94be" testName="Consulta_Deudor_x_Dni_ConDatos" computerName="OMS" duration="00:00:00.0057018" startTime="2013-03-23T16:22:04.0617694-05:00" endTime="2013-03-23T16:22:04.0687698-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="582bedb1-3e99-4044-8118-350655506f7d">
+    </UnitTestResult>
+  </Results>
+</TestRun>

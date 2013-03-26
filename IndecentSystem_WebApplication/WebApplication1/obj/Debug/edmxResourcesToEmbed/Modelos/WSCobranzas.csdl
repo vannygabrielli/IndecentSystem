@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DBProyectoModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityContainer Name="DBProyectoEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="CO_LOG_SYS" EntityType="DBProyectoModel.CO_LOG_SYS" />
+    <EntitySet Name="CO_USUARIO" EntityType="DBProyectoModel.CO_USUARIO" />
+    <EntitySet Name="sysdiagrams" EntityType="DBProyectoModel.sysdiagrams" />
+    <AssociationSet Name="FK_CO_LOG_SYS_CO_USUARIO1" Association="DBProyectoModel.FK_CO_LOG_SYS_CO_USUARIO1">
+      <End Role="CO_USUARIO" EntitySet="CO_USUARIO" />
+      <End Role="CO_LOG_SYS" EntitySet="CO_LOG_SYS" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="CO_LOG_SYS">
+    <Key>
+      <PropertyRef Name="CO_IDLOG" />
+    </Key>
+    <Property Name="CO_IDLOG" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CO_IDUSUARIO" Type="Int32" />
+    <Property Name="CO_FECHA_ING" Type="DateTime" />
+    <Property Name="CO_PC" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="CO_USUARIO_1" Relationship="DBProyectoModel.FK_CO_LOG_SYS_CO_USUARIO1" FromRole="CO_LOG_SYS" ToRole="CO_USUARIO" />
+  </EntityType>
+  <EntityType Name="CO_USUARIO">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Type="Int32" Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="LOGIN" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PWD" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="DESCRIPCION" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="NOMBRES" MaxLength="100" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="CO_LOG_SYS_1" Relationship="DBProyectoModel.FK_CO_LOG_SYS_CO_USUARIO1" FromRole="CO_USUARIO" ToRole="CO_LOG_SYS" />
+    <Property Type="Int32" Name="ESTADO" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Type="String" Name="name" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="principal_id" Nullable="false" />
+    <Property Type="Int32" Name="diagram_id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="version" />
+    <Property Type="Binary" Name="definition" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <Association Name="FK_CO_LOG_SYS_CO_USUARIO1">
+    <End Type="DBProyectoModel.CO_USUARIO" Role="CO_USUARIO" Multiplicity="0..1" />
+    <End Type="DBProyectoModel.CO_LOG_SYS" Role="CO_LOG_SYS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CO_USUARIO">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="CO_LOG_SYS">
+        <PropertyRef Name="CO_IDUSUARIO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

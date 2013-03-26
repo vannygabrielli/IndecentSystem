@@ -1,0 +1,12 @@
+D:\_Karlos\Personal\Work_UPC\Repositorio_DSD\wscobranzasoft\Fuente_DSD\WebApplication1\TestWScobranzas\bin\Debug\TestWScobranzas.dll.config
+D:\_Karlos\Personal\Work_UPC\Repositorio_DSD\wscobranzasoft\Fuente_DSD\WebApplication1\TestWScobranzas\bin\Debug\TestWScobranzas.dll
+D:\_Karlos\Personal\Work_UPC\Repositorio_DSD\wscobranzasoft\Fuente_DSD\WebApplication1\TestWScobranzas\bin\Debug\TestWScobranzas.pdb
+D:\_Karlos\Personal\Work_UPC\Repositorio_DSD\wscobranzasoft\Fuente_DSD\WebApplication1\TestWScobranzas\obj\Debug\ResolveAssemblyReference.cache
+D:\_Karlos\Personal\Work_UPC\Repositorio_DSD\wscobranzasoft\Fuente_DSD\WebApplication1\TestWScobranzas\obj\Debug\TestWScobranzas.dll
+D:\_Karlos\Personal\Work_UPC\Repositorio_DSD\wscobranzasoft\Fuente_DSD\WebApplication1\TestWScobranzas\obj\Debug\TestWScobranzas.pdb
+C:\Alvaro\upc\2013-1\Distribuidos\DSD\WebApplication1\TestWScobranzas\bin\Debug\TestWScobranzas.dll.config
+C:\Alvaro\upc\2013-1\Distribuidos\DSD\WebApplication1\TestWScobranzas\bin\Debug\TestWScobranzas.dll
+C:\Alvaro\upc\2013-1\Distribuidos\DSD\WebApplication1\TestWScobranzas\bin\Debug\TestWScobranzas.pdb
+C:\Alvaro\upc\2013-1\Distribuidos\DSD\WebApplication1\TestWScobranzas\obj\Debug\ResolveAssemblyReference.cache
+C:\Alvaro\upc\2013-1\Distribuidos\DSD\WebApplication1\TestWScobranzas\obj\Debug\TestWScobranzas.dll
+C:\Alvaro\upc\2013-1\Distribuidos\DSD\WebApplication1\TestWScobranzas\obj\Debug\TestWScobranzas.pdb

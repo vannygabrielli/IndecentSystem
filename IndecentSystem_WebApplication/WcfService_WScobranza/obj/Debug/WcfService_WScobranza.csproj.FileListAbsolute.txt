@@ -1,0 +1,10 @@
+D:\_Karlos\Personal\Work_UPC\Repositorio_DSD\wscobranzasoft\Fuente_DSD\WebApplication1\WcfService_WScobranza\bin\WcfService_WScobranza.dll
+D:\_Karlos\Personal\Work_UPC\Repositorio_DSD\wscobranzasoft\Fuente_DSD\WebApplication1\WcfService_WScobranza\bin\WcfService_WScobranza.pdb
+D:\_Karlos\Personal\Work_UPC\Repositorio_DSD\wscobranzasoft\Fuente_DSD\WebApplication1\WcfService_WScobranza\obj\Debug\ResolveAssemblyReference.cache
+D:\_Karlos\Personal\Work_UPC\Repositorio_DSD\wscobranzasoft\Fuente_DSD\WebApplication1\WcfService_WScobranza\obj\Debug\WcfService_WScobranza.dll
+D:\_Karlos\Personal\Work_UPC\Repositorio_DSD\wscobranzasoft\Fuente_DSD\WebApplication1\WcfService_WScobranza\obj\Debug\WcfService_WScobranza.pdb
+C:\Alvaro\upc\2013-1\Distribuidos\DSD\WebApplication1\WcfService_WScobranza\bin\WcfService_WScobranza.dll
+C:\Alvaro\upc\2013-1\Distribuidos\DSD\WebApplication1\WcfService_WScobranza\bin\WcfService_WScobranza.pdb
+C:\Alvaro\upc\2013-1\Distribuidos\DSD\WebApplication1\WcfService_WScobranza\obj\Debug\ResolveAssemblyReference.cache
+C:\Alvaro\upc\2013-1\Distribuidos\DSD\WebApplication1\WcfService_WScobranza\obj\Debug\WcfService_WScobranza.dll
+C:\Alvaro\upc\2013-1\Distribuidos\DSD\WebApplication1\WcfService_WScobranza\obj\Debug\WcfService_WScobranza.pdb

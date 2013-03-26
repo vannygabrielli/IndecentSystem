@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DBProyectoModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="DBProyectoModelStoreContainer">
+    <EntitySet Name="CO_LOG_SYS" EntityType="DBProyectoModel.Store.CO_LOG_SYS" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CO_USUARIO" EntityType="DBProyectoModel.Store.CO_USUARIO" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="sysdiagrams" EntityType="DBProyectoModel.Store.sysdiagrams" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK_CO_LOG_SYS_CO_USUARIO" Association="DBProyectoModel.Store.FK_CO_LOG_SYS_CO_USUARIO">
+      <End Role="CO_USUARIO" EntitySet="CO_USUARIO" />
+      <End Role="CO_LOG_SYS" EntitySet="CO_LOG_SYS" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="CO_LOG_SYS">
+    <Key>
+      <PropertyRef Name="CO_IDLOG" />
+    </Key>
+    <Property Name="CO_IDLOG" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="CO_IDUSUARIO" Type="int" />
+    <Property Name="CO_FECHA_ING" Type="datetime" />
+    <Property Name="CO_PC" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="CO_USUARIO">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="LOGIN" Type="varchar" MaxLength="20" />
+    <Property Name="PWD" Type="varchar" MaxLength="10" />
+    <Property Name="DESCRIPCION" Type="varchar" MaxLength="100" />
+    <Property Name="NOMBRES" Type="varchar" MaxLength="100" />
+    <Property Name="ESTADO" Type="int" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" Nullable="false" MaxLength="128" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <Association Name="FK_CO_LOG_SYS_CO_USUARIO">
+    <End Role="CO_USUARIO" Type="DBProyectoModel.Store.CO_USUARIO" Multiplicity="0..1" />
+    <End Role="CO_LOG_SYS" Type="DBProyectoModel.Store.CO_LOG_SYS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CO_USUARIO">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="CO_LOG_SYS">
+        <PropertyRef Name="CO_IDUSUARIO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>
